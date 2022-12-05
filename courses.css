@@ -48,3 +48,49 @@ a{
     transform: scaleY(1.0);
     transform: scaleX(1.1);
 }
+
+@media (max-width:300px)and(max-width: 425px){
+    html{
+        width: 393px;
+    }
+    .row{
+        padding-left: 0px;
+        margin-right: 7.5rem;
+        margin-right: 5.5rem;
+    }
+}
+
+
+@media (max-width: 912px){
+    .row >.card{
+        --bs-gutter-x: 6.5rem;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .card{
+        margin-right: 4.5rem;
+        margin-left: 4.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 1280px){
+    .card{
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 1500px){
+    .card{
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
